@@ -11,6 +11,7 @@
 		92FE4B042B105D2D00E6BB2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE4B032B105D2D00E6BB2F /* ContentView.swift */; };
 		92FE4B062B105D2F00E6BB2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FE4B052B105D2F00E6BB2F /* Assets.xcassets */; };
 		92FE4B092B105D2F00E6BB2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FE4B082B105D2F00E6BB2F /* Preview Assets.xcassets */; };
+		92FE4B112B10617100E6BB2F /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FE4B102B10617100E6BB2F /* GitHubUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		92FE4B032B105D2D00E6BB2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		92FE4B052B105D2F00E6BB2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FE4B082B105D2F00E6BB2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		92FE4B102B10617100E6BB2F /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		92FE4B002B105D2D00E6BB2F /* network-call-beginner */ = {
 			isa = PBXGroup;
 			children = (
+				92FE4B0F2B10615500E6BB2F /* Models */,
 				92FE4B012B105D2D00E6BB2F /* network_call_beginnerApp.swift */,
 				92FE4B032B105D2D00E6BB2F /* ContentView.swift */,
 				92FE4B052B105D2F00E6BB2F /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				92FE4B082B105D2F00E6BB2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		92FE4B0F2B10615500E6BB2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				92FE4B102B10617100E6BB2F /* GitHubUser.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FE4B042B105D2D00E6BB2F /* ContentView.swift in Sources */,
+				92FE4B112B10617100E6BB2F /* GitHubUser.swift in Sources */,
 				92FE4B022B105D2D00E6BB2F /* network_call_beginnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
